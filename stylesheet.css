@@ -5,8 +5,8 @@
 body {
   display: flex;
   justify-content: center;
-  color: rgb(0 0 0 / 69%);
   font-family: 'Open Sans', sans-serif;
+  color: rgb(0 0 0 / 69%);
   margin: 2rem 0;
 }
 
@@ -108,9 +108,10 @@ h2 {
 button {
   width: 12rem;
   height: 6rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+  color: rgb(0 0 0 / 69%);
   border: none;
 }
 
@@ -119,5 +120,5 @@ button {
 }
 
 .question-tips {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
