@@ -15,8 +15,6 @@ let totalPercentageElement =
 	document.getElementsByClassName("total-percentage")[0];
 
 function updateScore(points) {
-	console.log(positiveAnswers);
-
 	pointsAccumulated += points;
 
 	let totalPercentage = Math.ceil((pointsAccumulated / totalPoints) * 100);
