@@ -1,0 +1,123 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  color: rgb(0 0 0 / 69%);
+  font-family: 'Open Sans', sans-serif;
+  margin: 2rem 0;
+}
+
+.container {
+  width: 62rem;
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 4rem;
+  font-weight: initial;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.text-regular {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.red-background {
+  /* !important required for button hover to have no effect */
+  background-color: #EE675D!important;
+}
+
+.green-background {
+  /* !important required for button hover to have no effect */
+  background-color: #4ACF7F!important;
+}
+
+.bar-container {
+  display: flex;
+  flex-wrap: nowrap;
+  position: sticky;
+  width: 50rem;
+  margin: 3rem 0;
+  border-left: 1rem solid rgb(0 0 0 / 69%);
+  color: white;
+}
+
+.bar-container > div {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+}
+
+.bar-container > div span {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.total-percentage {
+  font-size: 3rem;
+}
+
+.percentage-positive, .percentage-negative {
+  font-size: 3rem;
+}
+
+.green-text {
+  color: #4ACF7F;
+}
+
+.red-text {
+  color: #EE675D;
+}
+
+.question {
+  font-size: 2rem;
+  margin: 5rem 0;
+}
+
+.question div {
+  margin: 2rem 0;
+}
+
+.question .button-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.question .button-container > * {
+  margin: 0 .4rem;
+}
+
+button {
+  width: 12rem;
+  height: 6rem;
+  font-size: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  border: none;
+}
+
+.question .button-container button:hover {
+  background-color: rgb(0 0 0 / 40%)
+}
+
+.question-tips {
+  font-size: 1.5rem;
+}
