@@ -45,9 +45,9 @@ const questions = [
     ]
   },
   {
-    question: "Are you trying to get through mindless work?",
+    question: "Are you trying to be creative?",
     points: 3,
-    yesIsPositive: true,
+    yesIsPositive: false,
     tips: [
       "Coffee is good at getting you into a mindset of getting work done.",
       "It might not be as good at providing a creative headspace."
@@ -68,7 +68,8 @@ const questions = [
     points: 15,
     yesIsPositive: true,
     tips: [
-      "Doing what makes you happy is great. And you are great! Especially when you do the things you enjoy doing."
+      "Doing what makes you happy is great. And you are great! Especially when you do the things you enjoy doing.",
+      "If you don't like it, there are many other things to try!"
     ]
   }
 ];
