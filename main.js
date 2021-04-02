@@ -57,8 +57,8 @@ questions.forEach((question, index) => {
 		<div class="button-container">
 			<button class="yes-button">Yes</button>
 			<button class="no-button">No</button>
-			<span class="percentage-positive green-text hide text-heavy">+${percentage}%</span>
-			<span class="percentage-negative red-text hide text-heavy">+0%</span>
+			<span class="percentage-positive green-text hide text-heavy">&nbsp;+${percentage}%</span>
+			<span class="percentage-negative red-text hide text-heavy">&nbsp;+0%</span>
 		</div>
 		<div class="question-tips hide">
 			<ul>
